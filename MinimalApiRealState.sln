@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalApiRealState", "MinimalApiRealState\MinimalApiRealState.csproj", "{067E0BD7-F1D0-42E7-AB4C-F69D304B6653}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{067E0BD7-F1D0-42E7-AB4C-F69D304B6653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{067E0BD7-F1D0-42E7-AB4C-F69D304B6653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{067E0BD7-F1D0-42E7-AB4C-F69D304B6653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{067E0BD7-F1D0-42E7-AB4C-F69D304B6653}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28DB83C1-841F-47A0-814E-2C48E216C85B}
+	EndGlobalSection
+EndGlobal
