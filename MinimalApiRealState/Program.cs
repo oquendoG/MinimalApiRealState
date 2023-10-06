@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using MinimalApiRealState.Data;
 using MinimalApiRealState.Extensions;
+using MinimalApiRealState.Feats.Properties;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +17,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddAppExtesions();
 
 var app = builder.Build();
+app.AddPropertyEndpoints();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

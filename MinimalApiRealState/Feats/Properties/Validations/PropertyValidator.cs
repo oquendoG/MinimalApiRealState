@@ -3,9 +3,19 @@ using MinimalApiRealState.Feats.Properties.Dtos;
 
 namespace MinimalApiRealState.Feats.Properties.Validations;
 
-public class PropertyValidator : AbstractValidator<CreatePropertyDto>
+public class PropertyValidatorCreate : AbstractValidator<CreatePropertyDto>
 {
-    public PropertyValidator()
+    public PropertyValidatorCreate()
+    {
+        RuleFor(model => model.Name).NotEmpty();
+        RuleFor(model => model.Description).NotEmpty();
+        RuleFor(model => model.Location).NotEmpty();
+    }
+}
+
+public class PropertyValidatorUpdate : AbstractValidator<UpdatePropertyDto>
+{
+    public PropertyValidatorUpdate()
     {
         RuleFor(model => model.Name).NotEmpty();
         RuleFor(model => model.Description).NotEmpty();
